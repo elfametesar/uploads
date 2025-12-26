@@ -6,7 +6,7 @@ sed -i 's/ZSH_THEME.*/ZSH_THEME="robbyrussell"/' ~/.zshrc
 sed -i '/plugins/ {s/)/ zsh-syntax-highlighting zsh-autosuggestions)/}' ~/.zshrc
 cat <<EOF > ~/.oh-my-zsh/themes/robbyrussell.zsh-theme
 
-PROMPT='%(?:%{$fg_bold[green]%}%1{%(!.#.➜)%} :%{$fg_bold[red]%}%1{%(!.#.➜)%} ) %{$fg[cyan]%}$(pwd)%{$reset_color%}'
+PROMPT='%(?:%{$fg_bold[green]%}%1{%(!.#.➜)%}:%{$fg_bold[red]%}%1{%(!.#.➜)%}) %{$fg[cyan]%}$(pwd)%{$reset_color%}'
 PROMPT+=' $(git_prompt_info)'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}git:(%{$fg[red]%}"
