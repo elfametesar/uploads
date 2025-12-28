@@ -1,5 +1,4 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-git clone https://github.com/agnoster/agnoster-zsh-theme ~/.oh-my-zsh/themes/agnoster
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
 sed -i 's/ZSH_THEME.*/ZSH_THEME="robbyrussell"/' ~/.zshrc 
